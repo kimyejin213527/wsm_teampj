@@ -1,0 +1,1 @@
+document.getElementById("heart-icon").innerHTML = "<img src="../image/fill-heart.svg"/>";

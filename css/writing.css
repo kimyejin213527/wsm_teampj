@@ -1,0 +1,12 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../image/배경2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #4f4768;
+}
+
+.feather {
+    color: #9EA2C3;
+}

@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../image/배경1.png');
+    background-size: cover;
+}
+
+.main-logo{
+    padding: 15% 0;
+    margin: auto;
+    max-width: 20%;
+    display: block;
+    position: static;
+}
+
+.click { 
+    display: block;
+    max-width: 20%;
+    position: absolute;
+    top: 40%;
+    right: 3%;
+}
+
+p {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+@media (max-width: 1300px) {
+    .main-logo {
+        padding: 20% 0;
+        margin: auto;
+        max-width: 28%;
+        display: block;
+    }
+    .click{
+        max-width: 30%;
+    }
+}
+
+@media (max-width: 700px) {
+    .main-logo {
+        padding: 40% 0;
+        margin: auto;
+        max-width: 40%;
+        display: block;
+    }
+    .click{
+        top: 50%;
+        max-width: 40%;
+    }
+
+}
