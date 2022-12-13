@@ -7,22 +7,24 @@ body {
     background-color: #4f4768;
 }
 
-body{
+body {
     -ms-overflow-style: none;
 }
-    
+
 ::-webkit-scrollbar {
-     display: none;
+    display: none;
 }
 
-li{
-    list-style-type: none;/*기호 없앰*/
+li {
+    list-style-type: none;
+    /*기호 없앰*/
     text-align: right;
     margin: 0 10%;
 }
 
-.up a{
-    text-decoration: none; /* 밑줄 없앰 */
+.up a {
+    text-decoration: none;
+    /* 밑줄 없앰 */
     color: #9EA2C3;
     font-size: 1rem;
 }
@@ -61,22 +63,25 @@ h4 {
     margin: 10px 20px;
 }
 
-.icon-box{
+.icon-box {
     margin: 10px 20px;
     float: right;
 }
 
 @media (max-width: 800px) {
-    .board-box{
+    .board-box {
         height: 60%;
     }
-    .text-box{ 
+
+    .text-box {
         height: 78%;
     }
+
     p {
         font-size: 1.3rem;
     }
-    h4{
+
+    h4 {
         font-size: 0.9rem;
         height: 78%;
     }
